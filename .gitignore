@@ -1,0 +1,29 @@
+# Data
+data/
+*.parquet
+*.arrow
+
+# Model outputs
+output/
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
+runs/
